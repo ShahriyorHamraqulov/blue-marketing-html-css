@@ -1,0 +1,50 @@
+@import 'fonts.css';
+
+.footer {
+    background: #3FA5D5;
+    height: 140px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-data__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-data__title {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.footer-data__tel {
+    color: #FFF;
+    font-family: 'RB';
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-data__email {
+    color: #FFF;
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15px;
+}
+
+.footer-made {
+    color:   #FFF;
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 21px;
+}
